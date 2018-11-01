@@ -1,0 +1,60 @@
+/*navbar*/
+.container a{
+float: left;
+color: orangered;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.container {
+overflow: hidden;
+background: orange;
+}
+/*navbar*/
+
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*three images*/
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding:5px;
+}
+
+/* styling the unordered lists/links */
+/*list-style-type gets rid of the bullet points
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/*text decoration removes underline for link*/
+a {
+    color: darkorange;
+    text-decoration: none;
+}
+
